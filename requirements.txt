@@ -1,5 +1,6 @@
 streamlit
 streamlit-extras
+streamlit-option-menu
 opencv-python
 numpy
 joblib
