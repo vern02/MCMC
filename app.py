@@ -69,7 +69,7 @@ if selected == 'Introduction':
     """)
 
     st.write("Explore the detection tools in this app and **protect your digital identity** from phishing threats.")
-    st.image("/Users/vernsin/Documents/Datathon/PhishingAlertBanner.png", caption="Don't take the bait!")
+    st.image("PhishingAlertBanner.png", caption="Don't take the bait!")
 
 # Section 2: QR Code Phishing Detection
 elif selected == 'QR Phishing Detection':
