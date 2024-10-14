@@ -5,3 +5,4 @@ tensorflow
 joblib
 pillow
 requests
+opencv-python-headless
