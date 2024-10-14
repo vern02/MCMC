@@ -21,8 +21,12 @@ with st.sidebar:
     )
 
 # Load models and vectorizers
-tfidf_path = './TfIdf_Vectorizer.joblib'
-logreg_path = './Logistics_Regression_Model.joblib'
+# tfidf_path = './TfIdf_Vectorizer.joblib'
+# logreg_path = './Logistics_Regression_Model.joblib'
+
+currentdir = os.path.dirname(os.path.abspath(_file))
+lg_model_path = os.path.join(current_dir, 'Logistics_Regression_Model.joblib')
+tfidf_model_path = os.path.join(current_dir, 'TfIdf_Vectorizer.jobli')
 
 if os.path.exists(tfidf_path):
     vectorizer = joblib.load(tfidf_path)
