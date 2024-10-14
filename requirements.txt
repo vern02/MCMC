@@ -1,8 +1,5 @@
 streamlit
+streamlit-extras
 opencv-python
 numpy
-tensorflow
 joblib
-pillow
-requests
-opencv-python-headless
