@@ -21,8 +21,8 @@ with st.sidebar:
     )
 
 # Load models and vectorizers
-tfidf_path = "https://github.com/vern02/MCMC/blob/main/TfIdf_Vectorizer.joblib"
-logreg_path = "https://github.com/vern02/MCMC/blob/main/Logistics_Regression_Model.joblib"
+tfidf_path = "TfIdf_Vectorizer.joblib"
+logreg_path = "Logistics_Regression_Model.joblib"
 
 if os.path.exists(tfidf_path):
     vectorizer = joblib.load(tfidf_path)
