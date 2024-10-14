@@ -5,3 +5,4 @@ tensorflow
 joblib
 pillow
 requests
+cv2
